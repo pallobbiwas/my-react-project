@@ -1,12 +1,14 @@
 import './App.css';
 import Countries from './component/Countries/Countries';
+import Footer from './component/Footr/Footer';
+import Header from './component/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello i am react second projet</h1>
-      <h3>Every Country Ever You May Go(●'◡'●)</h3>
+      <Header></Header>
       <Countries></Countries>
+      <Footer></Footer>
     </div>
   );
 }

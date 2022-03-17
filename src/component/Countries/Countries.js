@@ -5,7 +5,6 @@ import Country from "./Country/Country";
 const Countries = () => {
   return (
     <div>
-      <h1>i am Countries</h1>
       <LoadData></LoadData>
     </div>
   );

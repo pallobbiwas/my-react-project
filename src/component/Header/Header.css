@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.designe {
+  background-color: rgb(24, 29, 27);
+  color: white;
+}
+ul {
+  display: flex;
+}
+.ul ul li {
+  list-style: none;
+  margin: 0 5px;
+}
+.ul ul li a {
+  text-decoration: none;
+  padding: 5px 20px;
+  background-color: rgb(49, 58, 58);
+  color: white;
+}
+.ul ul li a:hover {
+  background-color: burlywood;
+  transition: 4s;
+}

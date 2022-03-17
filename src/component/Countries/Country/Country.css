@@ -1,0 +1,9 @@
+.design {
+  background-color: bisque;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.design img {
+  width: 70%;
+}

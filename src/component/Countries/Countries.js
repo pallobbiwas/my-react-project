@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./Countries.css";
 import Country from "./Country/Country";
 
 const Countries = () => {
@@ -17,7 +18,7 @@ const LoadData = () => {
     .then(res => res.json())
     .then(datas => setCountries(datas))
   },[])
-  return (<div>
+  return (<div className="pranetDiv">
       {
           countris.map(country => <Country
             country = {country}
